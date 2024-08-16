@@ -5,11 +5,11 @@ import Footer from '../components/Footer'
 
 function MainLeyaut() {
   return (
-  <>
+  <div className=''>
     <Navbar/>
     <Outlet/>
     <Footer/>
-  </>
+  </div>
   )
 }
 
